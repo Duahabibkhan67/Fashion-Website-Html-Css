@@ -1,0 +1,106 @@
+section{
+ margin-top: 10rem;
+}
+main{
+ margin-top: 40rem;
+ margin-left: 4rem;
+ margin-right: 2rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+ row-gap: 2rem;
+ column-gap: 2rem;
+}
+#jewl{
+ display: flex;
+ height:18rem ;
+background-color:white;
+ width: 15rem;
+ box-shadow: 0 0 5px  rgba(0, 0, 0, 0.583);
+ border-radius: 5px;
+ overflow: hidden;
+ justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 1rem;
+} 
+body{
+ height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+header{
+ position: fixed;
+ padding: 10ox;
+box-shadow: 0 0 5px black;
+background-color: cadetblue;
+ top: 0;
+ left: 0;
+ right: 0;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+background-color:cadetblu;
+}
+header h1{
+  color: navy;
+}
+p{
+ color: black;
+margin-right: 5rem;
+height: 5px;
+
+}
+h1{
+ font-family:system-ui;
+ font-size: 2rem;}
+ #sign{
+  font-size: 1rem;
+  font-family: system-ui;
+  margin-right: 5rem;
+color:black;
+
+background-color: rgba(95, 158, 160, 0.526);
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.566);
+  display: flex;
+height: 2rem;
+width: 3rem;
+  cursor: pointer;
+  transition: 0.5s;
+ }
+ #sign:hover{
+  opacity: 0.3;
+ }
+ #sign:active{
+ background-color: cadetblue;
+ }
+button{
+
+color: white;
+background-color:black;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.651);
+border: none;
+border-radius: 3px;
+height: 30px;
+margin: 50px;
+margin-top: 40px;
+padding: 5px;
+transition: 0.30s;
+
+}button:hover{
+ cursor:pointer;
+ background-color:crimson;
+ 
+}
+button:active{
+ opacity: 0.5;
+}
+img{
+ height: 12rem;
+ width:15rem;
+
+}
+header h1{
+  font-size: 3rem;
+}

@@ -1,0 +1,71 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+label{
+ font-family: arial;
+ font-size: small;
+ display: flex;
+align-items: center;
+}
+
+form{
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.675);
+ justify-content: center;
+ align-items: center;
+ border-radius: .3rem;
+display: flex;
+padding: 3rem;
+flex-direction: column;
+background-color:lightblue;
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color:rgba(0, 0, 128, 0.874);
+}
+input{
+ margin: .3rem;
+ outline: none;
+ padding: .3rem;
+}
+
+button{
+
+ color:white;
+ background-color:black;
+ border: none;
+ border-radius: 3px;
+ width: 50px;
+ margin: 50px;
+ margin-top: 40px;
+ padding: 5px;
+ transition: 0.30s;
+ height:30px;
+ }button:hover{
+  cursor:pointer;
+  background-color:crimson;
+  
+ }
+ button:active{
+  opacity: 0.5;}
+  a{
+   color:black;
+  }
+ #email{
+ 
+  font-family: system-ui,sans-serif;
+  font-size: 1rem;
+ }
+ #fullname{
+  font-family: system-ui,sans-serif;
+  font-size: 1rem;
+  margin-right: 2rem;
+ }
+ #forgotpassword{
+  font-family: system-ui,sans-serif;
+  font-size: 1rem;
+  margin-right: 2rem;
+ }
